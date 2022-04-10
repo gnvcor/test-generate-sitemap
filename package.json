@@ -1,0 +1,14 @@
+{
+  "name": "test-generate-sitemap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sitemap": "^7.1.1"
+  },
+  "scripts": {
+    "generate-data": "node generateData.js",
+    "generate-sitemap": "node generateSitemap.js",
+    "update-single-sitemap": "node updateSingleSitemap.js"
+  }
+}
